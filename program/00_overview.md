@@ -7,14 +7,14 @@
 
 ## Aims
 
-1. Extract geospatial features to run ML pipelines over.
+1. Extract geospatial features for data science applications.
 2. Present the practical strategies for using geospatial data.
 
 ## Learning Outcomes
 
 1. Understand vector and raster geospatial formats with feature extraction. 
-2. Explain point-based spatial predictions.
-3. Demonstrate spatial statistics and sampling theory.
+2. Understand projections and geocoding.
+3. Understand how to manipulate spatial data sets.
 
 ## Schedule
 
@@ -30,7 +30,7 @@
 | 15:00 | 16:30 | [**Good and Bad Pitches & Building a Capstone Pitch**]   |
 | 16:30 | 16:45 | [**Closeout**]                                           |
 
-[**Spatial data**]: ./01_introspatialdata.md
+[**Introduction to spatial data**]: ./01_introspatialdata.md
 
 [**Using spatial data**]: ./02_usingspatialdata.md
 
