@@ -8,7 +8,6 @@
 Today we've:
 
 * covered the basic concepts of spatial data: space, location and distance, and the different methods we use to talk about these concepts, including absolute, relative, topological and cognitive measures.
-* covered the basics of geospatial data analysis, including set theory constructions, spatial indices and geocoding.
-* covered how geospatial processing can form part of a larger machine learning or data science pipeline, particularly as a feature generator for machine learning algorithms.
+* covered the basics of spatial data analysis, including geometry operations, spatial indices, and geocoding.
+* covered how spatial processing can form part of a larger machine learning or data science pipeline, particularly as a feature generator for machine learning algorithms.
 * covered how to design an effective pitch that considers the audience, communication styles and content structure.
-
