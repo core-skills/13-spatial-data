@@ -22,7 +22,8 @@ On vector data:
    <br/><img src="./geocoding_linear.png" title="Linear geocoding" width="50%"><br/>
    2. Area geocoding (find a point in a polygon) – much more accurate but requires lots more data
    <br/><img src="./geocoding_area.png" title="Area geocoding" width="50%"><br/>
-   3. Generally, we don’t just want to do this ourselves – use an API!
+
+Generally, we don’t just want to do this ourselves – use an API! See for instance [scipy.spatial](https://docs.scipy.org/doc/scipy-0.14.0/reference/spatial.html), [shapely](https://shapely.readthedocs.io/en/latest/) or [geopy](https://geopy.readthedocs.io/en/stable/#) in Python
 
 ## Exercise: Geospatial data processing
 
@@ -61,6 +62,6 @@ If we want to make any prediction, we need to take that dependency into account.
 | *10 min*  |
 | --------- |
 
-[Gaussian processes](https://scikit-learn.org/stable/modules/gaussian_process.html#gaussian-process) use the covariance function to determine the spatial continuity between each location during prediction. It is equivalent to [kriging](https://www.youtube.com/watch?v=CVkmuwF8cJ8), which is widely used for spatial predictions in geostatistics. Gaussian processes can interpolate between observations (i.e., they fit the data perfectly) and quantify the uncertainty of the prediction.
+[Gaussian processes](https://scikit-learn.org/stable/modules/gaussian_process.html#gaussian-process) use the covariance function to determine the spatial continuity between each location during prediction. It is equivalent to [kriging](https://www.youtube.com/watch?v=CVkmuwF8cJ8), which is widely used for spatial predictions in geostatistics. Gaussian processes can interpolate between observations (i.e., they fit the data perfectly) and quantify the uncertainty of the prediction. On the downside, they are computationally demanding.
 
-If you want to get a better idea at how Gaussian processes work, [Distill](https://distill.pub/2019/visual-exploration-gaussian-processes/) has made a nice, interactive explanation. You can find some examples of spatial predictions using Gaussian processes and other methods in the notebook linked in [this Agile blog post](https://agilescientific.com/blog/2019/3/8/x-lines-of-python-gridding-map-data). Finally, Michael Pyrcz has a great [set of lectures](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig) about statistics, geostatistics, and machine learning.
+If you want to get a better idea at how Gaussian processes work, [Distill](https://distill.pub/2019/visual-exploration-gaussian-processes/) has made a nice, interactive explanation, and the book [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/) by Rasmussen and Williams is a classic in machine learning. You can find some examples of spatial predictions using Gaussian processes and other methods in the notebook linked in [this Agile blog post](https://agilescientific.com/blog/2019/3/8/x-lines-of-python-gridding-map-data). Finally, Michael Pyrcz has a great [set of lectures](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig) about statistics, geostatistics, and machine learning.
