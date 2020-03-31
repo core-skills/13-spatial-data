@@ -8,7 +8,7 @@
 | *75 min* |
 | --------- |
 
-## Preparations for exercies
+## Preparations for exercises
 To ensure you are able to work through this morning, please make sure you have the package `cartopy` installed in the environment.
 
 We're going to explore geocoding using [LocationIQ's API](https://locationiq.com). If you've never used an API before this might be a fun introduction to how most servers talk to each other on the web.
@@ -95,7 +95,7 @@ The datum builds upon the reference spheroid and incorporates more localized ele
 
 Global datums can be used to represent world-wide data. The most commonly used is the World Geodetic System of 1984 (WGS84).
 
-Local datums incorporate more local variations that global datums, and are fixed to the area of interest. They should only be used to locate data within the region specified by the datum.
+Local datums incorporate more local variations than global datums, and are fixed to the area of interest. They should only be used to locate data within the region specified by the datum.
 
 For the Australian continent, a new datum has recently been released called GDA2020. This datum will replace the GDA94 datum that had been the standard.
 
@@ -108,7 +108,7 @@ A projection specifies how to represent the features from a spheroidal surface o
 - cylindrical
 - conical
 
-Projections may cause distortions in how the data is reprented. Consider different projections depending on the use of the final product use. Things to consider are:
+Projections may cause distortions in how the data is reprented. Consider different projections depending on the use of the final product. Things to consider are:
 - size preserving
 - shape preserving
 - distance between features preserving
