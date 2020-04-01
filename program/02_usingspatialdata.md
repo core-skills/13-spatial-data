@@ -1,6 +1,6 @@
 [Overview](./00_overview.md) |
-[Introduction to spatial data](./01_introspatialdata.md) |
-[Using spatial data](./02_usingspatialdata.md) |
+[Introduction to Spatial Data](./01_introspatialdata.md) |
+[Using Spatial Data](./02_usingspatialdata.md) |
 [Closeout](./05_closeout.md)
 
 # Using spatial data
@@ -65,3 +65,8 @@ If we want to make any prediction, we need to take that dependency into account.
 [Gaussian processes](https://scikit-learn.org/stable/modules/gaussian_process.html#gaussian-process) use the covariance function to determine the spatial continuity between each location during prediction. It is equivalent to [kriging](https://www.youtube.com/watch?v=CVkmuwF8cJ8), which is widely used for spatial predictions in geostatistics. Gaussian processes can interpolate between observations (i.e., they fit the data perfectly) and quantify the uncertainty of the prediction. On the downside, they are computationally demanding.
 
 If you want to get a better idea at how Gaussian processes work, [Distill](https://distill.pub/2019/visual-exploration-gaussian-processes/) has made a nice, interactive explanation, and the book [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/) by Rasmussen and Williams is a classic in machine learning. You can find some examples of spatial predictions using Gaussian processes and other methods in the notebook linked in [this Agile blog post](https://agilescientific.com/blog/2019/3/8/x-lines-of-python-gridding-map-data). Finally, Michael Pyrcz has a great [set of lectures](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig) about statistics, geostatistics, and machine learning.
+
+[Overview](./00_overview.md) |
+[Introduction to Spatial Data](./01_introspatialdata.md) |
+[Using Spatial Data](./02_usingspatialdata.md) |
+[Closeout](./05_closeout.md)
