@@ -25,9 +25,9 @@
 | 10:00 | 10:30 | *Morning Tea*                                           |
 | 10:30 | 12:00 | [**Using spatial data**]                                |
 | 12:00 | 13:00 | *Lunch*                                                 |
-| 13:00 | 14:30 | **Pitch Development**                                   |
+| 13:00 | 14:30 | **Guest Speaker - Zane Prickett (Director, Unearthed)** |
 | 14:30 | 15:00 | *Afternoon Tea*                                         |
-| 15:00 | 16:30 | **Guest Speaker - Zane Prickett (Director, Unearthed)** |
+| 15:00 | 16:30 | **Pitch Development**                                   |
 | 16:30 | 16:45 | [**Closeout**]                                          |
 
 [**Introduction to spatial data**]: ./01_introspatialdata.md
