@@ -1,17 +1,23 @@
-name: week11
+name: day13spatial
 
 channels:
-  - conda-forge  
+  - conda-forge
 
 dependencies:
-  - requests
   - numpy
   - pandas
-  - geopandas
+  # environment for notebooks
+  - ipykernel
+  - jupyter
+  # REST/fetching web data
+  - requests
+  # visualisation
   - matplotlib
-  - cartopy
   - seaborn
+  # geospatial libraries
+  - geopandas
+  - cartopy
   - shapely
   - fiona
   - rasterio
-  - ipykernel
+  - descartes
