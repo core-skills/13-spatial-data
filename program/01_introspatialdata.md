@@ -1,6 +1,6 @@
 [Overview](./00_overview.md) |
-[Introduction to spatial data](./01_introspatialdata.md) |
-[Using spatial data](./02_usingspatialdata.md) |
+[Introduction to Spatial Data](./01_introspatialdata.md) |
+[Using Spatial Data](./02_usingspatialdata.md) |
 [Closeout](./05_closeout.md)
 
 # Introduction to spatial data
@@ -29,7 +29,7 @@ Then you'll need to create an access token to let Python access the API. You can
 See this website on Introduction to [Spatial Thinking](https://learn.canvas.net/courses/464/pages/unit-1-dot-4-spatial-thinking) for more on these fundamental concepts.
 ### Space
 
-There are different types of space, for example: 
+There are different types of space, for example:
 1.	Absolute space: mathematical space – everything is given an (x, y, z) tuple and positions are unambiguous. Example: Geographic space, geological map of WA.
 2.	Relative space: topological space - used to represent connectivity between features of the world. Precise measurement not as important. Example: Railway map for the metro.
 3.	Cognitive space: reflects people’s beliefs, experiences and perceptions about places. You might know how to get to your office quite well, but not other offices in the rest of the building. Emphasizes space via relevance to you. Example – a mud map to get your tradies to site.
@@ -75,7 +75,7 @@ Anything that we want to describe about the object. For example:
 
 1.	Raster: There are numerous formats, and often specialty data will have unique formats. A common and protable format is GeoTiff. All formats are more or less an "image" (i.e. array of values) with some metadata showing the grid parameters (start, stop, step, and an affine transformation to warp to projection)
 
-2.	Vector: GeoJSON, Shapefile (record by record geometries, according to some schema). 
+2.	Vector: GeoJSON, Shapefile (record by record geometries, according to some schema).
 
 ## Spatial reference frame
 
@@ -120,3 +120,8 @@ Projections may cause distortions in how the data is reprented. Consider differe
 | --------- |
 
 Open [am1_intro_to_spatial_data.ipynb.ipynb](../notebooks/am1_intro_to_spatial_data.ipynb) and go through the notebook.
+
+[Overview](./00_overview.md) |
+[Introduction to Spatial Data](./01_introspatialdata.md) |
+[Using Spatial Data](./02_usingspatialdata.md) |
+[Closeout](./05_closeout.md)
