@@ -18,17 +18,18 @@
 
 ## Schedule
 
-| Start | End   | Agenda                                                  |
-| -----:|:----- | ------------------------------------------------------- |
-| 08:30 | 08:45 | Q&A, Issues & Announcements                             |
-| 08:45 | 10:00 | [**Introduction to spatial data**]                      |
-| 10:00 | 10:30 | *Morning Tea*                                           |
-| 10:30 | 12:00 | [**Using spatial data**]                                |
-| 12:00 | 13:00 | *Lunch*                                                 |
-| 13:00 | 14:30 | **Guest Speaker - Zane Prickett (Director, Unearthed)** |
-| 14:30 | 15:00 | *Afternoon Tea*                                         |
-| 15:00 | 16:30 | **Pitch Development**                                   |
-| 16:30 | 16:45 | [**Closeout**]                                          |
+|          AWST | AEST          | Agenda                                                  |
+| -------------:|:------------- | ------------------------------------------------------- |
+| 07:30 - 07:45 | 09:30 - 09:45 | Q&A, Issues & Announcements                             |
+| 07:45 - 09:15 | 09:45 - 11:15 | [**Introduction to spatial data**]                      |
+| 09:15 - 09:30 | 11:15 - 11:30 | *Morning Tea*                                           |
+| 09:30 - 11:00 | 11:30 - 13:00 | [**Using spatial data**]                                |
+| 11:00 - 11:45 | 13:00 - 13:45 | *Lunch*                                                 |
+| 11:45 - 13:15 | 13:45 - 15:15 | **Guest Speaker - Zane Prickett (Director, Unearthed)** |
+| 13:15 - 13:30 | 15:15 - 15:30 | *Afternoon Tea*                                         |
+| 13:30 - 14:45 | 15:30 - 16:45 | **Pitch Development**                                   |
+| 14:45 - 15:00 | 16:45 - 17:00 | **Closeout**                                            |
+
 
 [**Introduction to spatial data**]: ./01_introspatialdata.md
 
