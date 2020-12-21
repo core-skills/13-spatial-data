@@ -1,9 +1,11 @@
-name: day13spatial
+name: day13
 
 channels:
   - conda-forge
+  - defaults
 
 dependencies:
+  - python=3.7
   - numpy
   - pandas
   # environment for notebooks
