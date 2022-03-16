@@ -1,0 +1,13 @@
+numpy
+pandas
+ipykernel
+jupyter
+requests
+matplotlib
+seaborn
+geopandas
+cartopy
+shapely
+rasterio
+descartes
+affine
